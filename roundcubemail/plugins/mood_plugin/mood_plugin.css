@@ -1,0 +1,41 @@
+#mood-btn {
+    background-color: #4285f4; 
+    color: white; 
+    border-radius: 4px; 
+    padding: 6px 12px; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: normal; 
+  }
+  
+#mood-btn:hover {
+  background-color: #3367d6; 
+}
+  
+  
+#mood-btn .button-inner {
+  font-family: Arial, sans-serif;
+}
+  
+
+
+#first-capture {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f0f7ff;
+  border-radius: 8px;
+}
+
+#countdown {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4285f4;
+}
+
+#snap-second {
+  background-color: #34a853;
+}
+
+#snap-second:hover {
+  background-color: #2d8e47;
+}

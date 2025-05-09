@@ -1,0 +1,118 @@
+/* Main styling for the camera page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+  
+
+#status {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+}
+  
+
+#video {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  margin-bottom: 20px;
+}
+  
+ 
+button {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  transition: background-color 0.2s;
+}
+  
+button:hover {
+  background-color: #3367d6;
+}
+  
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+  
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+  
+#result img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+  
+ 
+#use-mood {
+  margin-top: 10px;
+}
+  
+  
+#canvas {
+  display: none;
+}
+
+
+#first-capture {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f0f7ff;
+  border-radius: 8px;
+}
+
+#snap-second {
+  background-color: #34a853;
+}
+
+#snap-second:hover {
+  background-color: #2d8e47;
+}
+
+.error-message {
+  background-color: #ffeeee;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid #cc0000;
+  font-weight: bold;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  z-index: 1000;
+  transition: opacity 0.5s;
+}

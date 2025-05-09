@@ -1,0 +1,92 @@
+Week 1: 
+* Set up Development environment.
+* Reasearched the necessary libraries that would be required to completing the project.
+* Found the open-source email platform my system will be integrated onto- Proton Mail.
+
+
+Week 2:
+* Installed the necessary libraries and their dependencies Py-feat and FER.
+* Read up on the documentation for both libraries and tested the functions I would be using from each library
+*
+*
+
+Week 3:
+*
+*
+*
+*
+
+Week 4:
+* Attempting to resolve numpy dependency conflict between Py-feat and FER
+* Tried various versions of numpy ranging from the latest version **** to version ***** 
+*
+*
+
+Week 5:
+* 
+*
+*
+*
+
+Week 6:
+* Dropped FER library, due to dependency conflict.
+* Restructured the facial expression detection function to utilise Py-feat 
+*
+*
+
+Week 7:
+*
+*
+*
+*
+Week 8:
+*
+*
+*
+*
+Week 9:
+*
+*
+*
+*
+Week 10:
+*
+*
+*
+*
+Week 11:
+*
+*
+*
+*
+Week 12:
+*
+*
+*
+*
+Week 13:
+*
+*
+*
+*
+Week 14:
+*
+*
+*
+*
+Week 15:
+*
+*
+*
+*
+Week 16:
+*
+*
+*
+*
+Week 17:
+*
+*
+*
+*
+Week 18:
