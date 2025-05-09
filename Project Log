@@ -1,0 +1,55 @@
+Due to the fact that I made a lot of commits it is unnecessary to list out each one individually as a reference, please refer to my repository's commit history as evidence and for a deeper understanding. Here, activites have been grouped based on relationships and the time period they were made.
+
+Prior weeks:
+• Setting up Development environment.
+
+Week 1-2 starting 13/01/2025 (refer to commits): 
+• Reasearched the necessary libraries that would be required to completing the project.
+• Found the open-source email platform my system will be integrated onto- Proton Mail.
+• Gathered requirements.
+
+
+Week 3-5 27/01/2025 -10/02/2025(refer to commits):
+• Installed the necessary libraries and their dependencies Py-feat and FER.
+• Read up on the documentation for both libraries and created test functions to play around with the libraries .
+• Cloned ProtonMail from source github repository.
+• Attempting to resolve numerous dependency conflicts between Py-feat and FER e.g., numpy.
+• Drroped FER for mood detection.
+
+Week 6 17/02/2025-23/02/2025 (refer to commits):
+• Minimal work was done on the project due to other deadlines so few commits were made.
+• Ran into Python package conflicts, attempted to resolve these by upgrading and downgrading through versions of Python.
+
+
+Week 7-9 24/02/2025-16/03/2025 (refer to commits):
+• Attempted to integrate a custom button into the ProtonMail composer web page.
+• Landed on a broken clone of ProtonMail, I was stuck trying to repair this, installed dependencies/packages were corrupted, numerous files were missing from the clone due to gitignore rules.
+
+Week 10-11 17/03/2025-30/03/2025 (refer to commits):
+• Mostly miscellaneous work, I sarted trying to document my application and its creation. 
+• Created the first version of the Project Log.
+• Created my initial systems diagram.
+
+Week 12-13 31/03/2025-13/04/2025 (refer to commits):
+• I broke the clone of ProtonMail whilst attempting to push from local to my Git repo, completely overid files on 'main'.   
+• Attempted different methods of ProntonMail's source code into the repository cleanly.
+• Modified Composer.tsx to accept my custom plugin.
+
+Week 14 14/04/2025-20/04/2025 (refer to commits):
+• Attempted to bypass ProtonMail login page after proper configuration - unsuccessfull.
+• Research alternative open-source email client.
+• Ditched ProtonMail and switched to RoundcubeMail.
+• Added mood plugin to Roundcube compose window via a custom button.
+
+Week 15 21/04/2025- 27/04/2025 (refer to commits):
+• Created a camera user interface, where users can view emotion detection results, and created mood based GIF. 
+• Added styling and logic for Camera UI to make it cleaner.
+• Completed Animation genertor using Deluanay Triangulation and Affine Transfromation - my attempt to use Py-Feat animate_face() was unsuccessful.
+• Added more user features e.g., regenerate button to reset the capture process.
+
+Week 16 28/04/2025-02/05/2025 (refer to commits):
+• Created a function to generate SSL certificates for use with HTTPS - checks if they are already provided.
+• Simplified emotion detection to easily return expression with the highest value from the list of results.
+• Application cleanup, removed unnecessary code and functions.
+• Added GIF size optimiser for file reduction.
+• Improved error notification on the frontend.

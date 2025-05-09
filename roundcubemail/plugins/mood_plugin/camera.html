@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detect Mood</title>
+  <link rel="stylesheet" href="/plugins/mood_plugin/camera.css">
+</head>
+<body>
+  <h1>Mood Detector</h1>
+  <p id="status">Initialising camera…</p>
+
+  <video id="video" autoplay playsinline style="width: 100%; max-width: 400px;"></video>
+  <canvas id="canvas" style="display: none;"></canvas>
+  <br>
+  <button id="snap">Capture First Expression</button>
+  <button id="snap-second" style="display:none;">Capture Second Expression</button>
+  <button id="close" style="display:none;">Close Mood Detector</button>
+  
+  <div id="first-capture" style="display:none;"></div>
+  <div id="result"></div>
+
+  <script src="/plugins/mood_plugin/camera.js"></script>
+</body>
+</html>
